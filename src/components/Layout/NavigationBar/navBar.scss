@@ -2,7 +2,7 @@
 
 .innerbar {
     max-width: 1280px;
-    display: flex; 
+    display: flex;
     justify-content: flex-start;
     margin: 0 auto;
     img {
@@ -11,15 +11,11 @@
 }
 
 .navbar {
-    display: block; 
+    display: block;
     justify-content: flex-start;
     margin: 0 auto;
     background-color: $brand-dark;
     padding: 1rem 2rem;
-
-    @media print {
-        display: none;
-    }
 }
 
 .nav-item {
@@ -63,7 +59,7 @@
 
         a {
             padding: 0 !important;
-            
+
         }
     }
     .navbar-toggler {
@@ -73,7 +69,7 @@
         padding: 0.25rem 0;
         line-height: 1;
         // color: rgba(255,255,255,.5);
-        
+
         background-color: transparent;
         border: transparent;
 
@@ -82,7 +78,7 @@
             filter: brightness(110%);
         }
     }
-    
+
     .toggler-icon {
         height: 2em;
         width: 2em;
